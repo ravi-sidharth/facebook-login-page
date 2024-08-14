@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Helvetica, Arial, sans-serif;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+
+.main-container {
+    max-width: 2060px;  
+}
+
+.container {
+    background-color: #F2F4F7;
+    padding: 2% 15% 14.6% 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container div h1 {
+    font-family: monospace;
+    color: #0866FF;
+    font-size: 4rem;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.container div #Facebook{
+    font-size: 1.4rem;
+}
+
+.login-page {
+    margin-left: 4rem;
+    padding: 1rem;
+    border:none;
+    background-color:white;
+}
+
+.login-signup {
+    margin-top: 5.9rem;
+}
+
+.login-page p input {
+    padding-left: .5rem;
+    width: 23rem;
+    height: 3rem;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+}
+
+.login-btn {
+    background-color: #0866FF;
+    color: white;
+    font-weight: 800;
+}
+
+.login-page p {
+    margin-top: .7rem;
+   
+}
+
+#style {
+    color: #1C1E21;
+    font-weight: 900;
+}
+
+a {
+    padding-left: 7rem;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    margin: 2vh 0 2vh 0;
+}
+
+
+#submit_button {
+    background-color: #36A420;
+    color: white;
+    font-weight: 900;
+    margin-left: 5rem;
+    width: 11rem;
+    height: 3rem;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    border: none;
+}
+
+.style {
+    margin-top: 1.8rem;
+    font-size: .9rem;
+}
+
+.footer {
+    margin-top: 2rem;
+    padding: 0 20% 0 20%;
+}
+
+.footer-1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    flex-wrap: wrap;
+
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+.footer-1 li{
+    margin-left: 1rem;
+    margin-top: .5rem;
+    list-style-type: none;
+    font-size: .9rem;
+}
+
+.bottom-copy {
+    margin: 1rem 0 1rem .8rem;
+}
+
+@media (max-width:1024px) {
+
+}
