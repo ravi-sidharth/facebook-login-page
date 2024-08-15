@@ -2,13 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:Helvetica, Arial, sans-serif;
+
 
 }
 
 body {
     display: flex;
     justify-content: center;
+    font-family:Helvetica, Arial, sans-serif;
 }
 
 
@@ -18,21 +19,19 @@ body {
 
 .container {
     background-color: #F2F4F7;
-    padding: 2% 15% 14.6% 15%;
+    padding: 2% 22% 9.6% 22%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .container div h1 {
-    font-family: monospace;
     color: #0866FF;
-    font-size: 4rem;
-    font-family: Helvetica, Arial, sans-serif;
+    font-size: 3.5rem;
 }
 
 .container div #Facebook{
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 }
 
 .login-page {
@@ -43,7 +42,7 @@ body {
 }
 
 .login-signup {
-    margin-top: 5.9rem;
+    margin-top: 6rem;
 }
 
 .login-page p input {
@@ -81,7 +80,7 @@ a:hover {
 }
 
 hr {
-    margin: 2vh 0 2vh 0;
+    margin: 1rem 0 1rem 0;
 }
 
 
@@ -131,5 +130,148 @@ li:hover {
 }
 
 @media (max-width:1024px) {
+
+    .main-container {
+        max-width: 1024px;  
+    }
+
+    .container {
+        padding:2% 5% 9.6% 5%;
+    }
+
+    .footer {
+        margin-top: 2rem;
+        padding:0;
+    }
+
+
+    .footer-1 li{
+        font-size: .8rem;
+    }
+}
+
+@media (max-width:768px) {
+
+    .main-container {
+        max-width: 768px;  
+    }
+
+   
+    .container div h1 {
+        
+        font-size: 3rem;
+    }
+    
+    .container div #Facebook{
+        font-size: 1.2rem;
+        font-family:Helvetica, Arial, sans-serif;
+    }
+
+    
+    .login-page p input {
+        width: 16rem;
+    }
+
+    a {
+        padding-left: 4rem;
+        
+    }
+
+
+    #submit_button {
+        margin-left: 2.5rem;
+    }
+
+   
+}
+
+
+@media (max-width:425px) {
+
+    .main-container {
+        max-width: 425px;  
+    }
+
+    .container {
+        padding:2% 2% 9.6% 2%;
+    }
+
+
+    .container div h1 {
+        font-size: 2rem;
+    }
+    
+    .container div #Facebook{
+        font-size: .7rem;
+    }
+
+    
+    .login-page p input {
+        width: 10rem;
+        font-size: .6rem;
+    }
+
+    a {
+        padding-left: 2rem;
+        font-size: .6rem;
+        
+    }
+
+
+    #submit_button {
+        margin-left: 1.3rem;
+        width: 7rem;
+        height: 3rem;
+        font-size: .6rem;
+
+    }
+
+    .login-page {
+        margin-left: 2rem;
+        padding: 1rem;
+        border:none;
+        background-color:white;
+    }
+    
+    .style {
+    
+        font-weight: 900;
+        font-size: .5rem;
+    }
+   
+}
+
+@media (max-width:320px) {
+    .main-container {
+        max-width:320px;
+    }
+
+    .container div h1 {
+        font-size: 1.3rem;
+        margin-left: .3rem;
+    }
+    
+    .container div #Facebook{
+        font-size: .7rem;
+        margin-left: .3rem;
+    }
+    
+    .login-page {
+        margin-left: 2rem;
+        padding: .5rem;
+        text-align: center;
+        
+    }
+
+    .style {
+        font-size: .8rem;
+        margin: 1rem;
+    }
+
+    #style {
+        font-size: .8rem;
+    }
+
+
 
 }
